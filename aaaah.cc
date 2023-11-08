@@ -15,6 +15,9 @@ void testa_coloracao_gulosa(Vertice **v, int n){
 
             cor_vertice = v[i]->getCor();
             grau_vertice = v[i]->getGrau();
+            // Para esse problema, eu acho a lógica de assumir como verdadeiro e tentar achar um contra-examplo dificil de entender,
+            // então mudei para false e só atribuo como verdadeiro quando já tiver encontrado todas as colorações para um determinado
+            // vértice ser guloso
             passou = false;
 
             // condição 2: colorações gulosas têm pelo menos um vizinho para cada cor entre 1 e (cor_vertice-1)
