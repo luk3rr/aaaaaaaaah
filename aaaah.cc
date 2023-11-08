@@ -24,7 +24,7 @@ void testa_coloracao_gulosa(Vertice **v, int n){
             cor_teste = 1; 
             //std::cout << "\nTESTE Vertice: " << i << " cor: " << cor_vertice << std::endl; 
             
-            // Você deve estar se perguntando por que diaboas eu modifiquei seu loop de for para while. Leia o comentário
+            // Você deve estar se perguntando por que diabos eu modifiquei seu loop de for para while. Leia o comentário
             // gigante a baixo antes de ler esse:
             //    Agora que você já entendeu o motivo de precisarmos definir o j como 0 sempre que encontramos uma vértice,
             //    não podemos continuar utilizando o for, pelo simples fato de que quando setamos j = 0, ao voltar no loop
