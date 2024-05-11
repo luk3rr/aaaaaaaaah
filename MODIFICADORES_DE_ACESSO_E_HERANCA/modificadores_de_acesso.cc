@@ -14,13 +14,13 @@ class QualquerCoisa
         int publicMethod() { return publicVar; }
 
     protected: // Podem ser acessados apenas por classes derivadas
-               // e.g. QualquerCoisa.protectedVar = 10;
-               // Fora da classe, não é possível acessar
+               // Fora da classe não é possível acessar e modificar diretamente, sendo necessário
+               // usar métodos para isso
         int protectedVar;
         int protectedMethod() { return protectedVar; }
 
     private: // Podem ser acessados apenas pela própria classe
-             // Classe derivada não pode acessar, inclusive fora da classe
+             // Classe derivada não pode acessar
              // Aqui sempre é necessário usar métodos para acessar ou modificar
         int privateVar;
         int privateMethod() { return privateVar; }
