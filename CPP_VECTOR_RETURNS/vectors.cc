@@ -2,6 +2,8 @@
  * Filename: vectors.cc
  * Created on: May 10, 2024
  * Author: Lucas Araújo <araujolucas@dcc.ufmg.br>
+ *
+ * Exemplo de como retornar um vetor de uma classe em C++
  */
 
 #include <vector>

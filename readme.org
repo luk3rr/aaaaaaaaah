@@ -1,0 +1,2 @@
+* aaaaaaaaah
+Esse repositório contém alguns exemplos utilizados para sanar as dúvidas de alguns alunos durante as monitorias que ministrei.
